@@ -36,7 +36,7 @@ evaluator_map = {
     "basic": ExtractiveEvaluator,
     "time": ExtractiveEvaluator,
     "structure": ExtractiveEvaluator,
-    "multidoc": ExtractiveEvaluator,
+    "multidoc": MultidocEvaluator,
     "conversation": ConversationEvaluator,
     "counterfactual": FactualEvaluator,
     "noisy": ExtractiveEvaluator,

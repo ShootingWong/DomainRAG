@@ -226,9 +226,21 @@ class ConversationEvaluator(Evaluator):
     def evaluation(self, prediction, ground_truths):
         if isinstance(ground_truths, str):
             ground_truths = [ground_truths]
-        # print(f'Ground_truths = {ground_truths}\nPrediction = {prediction}')
         sample_metrics = {
-            "f1": f1_score(prediction, ground_truths),
+            "rouge": rouge_score(prediction, ground_truths)
+        }
+            
+        return sample_metrics
+    
+class MultidocEvaluator(Evaluator):
+    def __init__(self):
+        super(MultidocEvaluator, self).__init__()
+        
+        
+    def evaluation(self, prediction, ground_truths):
+        if isinstance(ground_truths, str):
+            ground_truths = [ground_truths]
+        sample_metrics = {
             "rouge": rouge_score(prediction, ground_truths)
         }
             
