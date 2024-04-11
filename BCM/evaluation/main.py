@@ -29,7 +29,7 @@ import json
 
 from tasks import get_dataset
 from options import get_options
-from Evaluator import ExtractiveEvaluator, FactualEvaluator, ConversationEvaluator
+from Evaluator import ExtractiveEvaluator, FactualEvaluator, ConversationEvaluator, MultidocEvaluator
 
 # "conversation", "counterfactual", "basic", "time", "structure", "multidoc"
 evaluator_map = {
