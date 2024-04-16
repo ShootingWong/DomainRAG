@@ -1,5 +1,5 @@
-# RAG-Eval
-RAG-Eval: A Comprehensive Chinese Benchmark for Evaluating Retrieval-Augmented Generation
+# DomainRAG
+DomainRAG: A Chinese Benchmark for Evaluating Domain-specifc Retrieval-Augmented Generation
 
 ## Preliminary
 The document corpurs is provided here: https://drive.google.com/file/d/1NquEyPGwP0MpTGJwDUUYKU37snYN4Er4/view?usp=sharing
